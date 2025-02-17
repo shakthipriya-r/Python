@@ -1,1 +1,12 @@
-
+#guess number game
+import random
+g=random.randint(1,20)
+while(1):
+    n=int(input("enter number:"))
+    if(n>g):
+        print("guss little low")
+    elif(n<g):
+        print("guess little high")
+    else:
+        print("you found it")
+        break
