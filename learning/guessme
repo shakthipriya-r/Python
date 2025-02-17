@@ -10,3 +10,22 @@ while(1):
     else:
         print("you found it")
         break
+
+#guess number game with attempts
+import random
+g=random.randint(1,20)
+a=0
+while(a<4):
+    n=int(input("enter number:"))
+    if(n>g):
+        print("guss little low")
+    elif(n<g):
+        print("guess little high")
+    else:
+        print("you found it")
+        break
+    a=a+1
+    if(a<4):
+        print("try again")
+if(a==4):
+    print("you lost, Guess number is ",g)
