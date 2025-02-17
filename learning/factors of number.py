@@ -12,7 +12,7 @@ for i in range(n):
     a.append(i)
 print(a)
 
-#peak element
+#Moving negative numbers to end
 
 a = [1, -1, 5, 0, -8]
 b = []
